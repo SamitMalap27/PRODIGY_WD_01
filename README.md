@@ -1,6 +1,7 @@
 # PRODIGY_WD_01
 Responsive landing page using Html, Css and javaScript .
 Snapshots of the website
+
 Home page:
 ![home1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/56db83fb-beda-4e9a-95b4-1116cd2893b9)
 About Page
