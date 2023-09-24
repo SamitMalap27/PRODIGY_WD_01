@@ -42,7 +42,6 @@ background-color: rgba(255, 255, 255, 0.5);
         flex-direction: column;
         position: absolute;
         top: 60px;
-        /* Adjust as needed to avoid overlapping content */
         left: -100%;
         /* Initially hidden */
         background-color: #333;
@@ -85,11 +84,9 @@ nav div img {
     /* background-color: red; */
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/back.jpg");
+    background-image: url("back.jpg");
     /* margin-top: 48px; */
     padding-top: 48px;
-    /* align-items: center; */
-    /* position: relative; */
 
 }
 
