@@ -3,10 +3,11 @@ Responsive landing page using Html, Css and javaScript .
 Snapshots of the website
 
 Home page:
-![home1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/56db83fb-beda-4e9a-95b4-1116cd2893b9)
+![Home1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/f8af3fbf-7ced-4f2b-8523-50282abc73cd)
 About Page
-![About1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/1b22a3c3-c54e-495d-ab72-003617071fab)
+![About1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/e09c45bf-45c7-4f59-9399-dab17dc27612)
 Services Page:
-![Services1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/6db4f026-60c6-413d-a3cb-d296a0c68771)
+![Services1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/5c6bbdf4-5352-47ee-883f-12029792831a)
 Contact Page:
-![contact1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/b81cefdc-4367-4839-8aaa-2c983635a44a)
+![Contact1](https://github.com/SamitMalap27/PRODIGY_WD_01/assets/121955319/64b83635-bee3-41b6-b8c6-8890c25e33d8)
+
