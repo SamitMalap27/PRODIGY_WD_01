@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Town</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/logo.png" alt="">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">&#9776;</div>
+
+    </nav>
+
+    <main>
+        <div class="bg">
+            <div class="desc">
+                <h1>GYM TOWN</h1>
+                <p>Gym Town Fitness Center in downtown offers cutting-edge cardio and strength equipment, personalized
+                    training, and diverse group classes. Our clean locker rooms and on-site nutrition bar enhance your
+                    gym experience. Join our supportive community for flexible membership options and start your fitness
+                    journey today.</p>
+                    <button class="my-button"> Join Now</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            &copy;2023 Gym Town All right reserved
+        </div>
+    </footer>
+
+    <script>
+        const toggleButton = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+    </script>
+</body>
+
+</html>

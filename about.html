@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about img{
+            height: 50vh;
+            width: 50vh;
+            margin: auto;
+            display: inline;
+        }
+        .about {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh; /* Make the body take up the full viewport height */
+        }
+        
+        .aside {
+            flex: -1; /* Distribute space between the two sections */
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f0f0f0;
+            padding-top: 100px;
+        }
+        
+        /* Style the first section differently */
+        .aside:first-child {
+            background-color: #ffffff;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/logo.png" alt="">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">&#9776;</div>
+
+    </nav>
+
+    <div class="about"> 
+        <div class="aside">
+            <img src="trainer.jpg" alt="">
+            <h3>Mr. XYZ (trainer)</h3>
+            Age:25years
+        </div>
+         <div class="aside">
+            <h2>Gym Trainer</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odit, reprehenderit, deserunt officia debitis ullam natus cumque, autem perferendis voluptas doloribus voluptatibus non? Quos blanditiis, facere magni corrupti voluptas voluptatem sapiente distinctio voluptatum sit ducimus iste, cum ex commodi facilis rerum enim pariatur id dolore. Exercitationem, voluptates? Eveniet, vel quam.</p>
+            <h2>Gym Location</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odit, reprehenderit, deserunt officia debitis ullam natus cumque, autem perferendis voluptas doloribus voluptatibus non? Quos blanditiis, facere magni corrupti voluptas voluptatem sapiente distinctio voluptatum sit ducimus iste, cum ex commodi facilis rerum enim pariatur id dolore. Exercitationem, voluptates? Eveniet, vel quam.</p>
+            <h2>Customer Ratings</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odit, reprehenderit, deserunt officia debitis ullam natus cumque, autem perferendis voluptas doloribus voluptatibus non? Quos blanditiis, facere magni corrupti voluptas voluptatem sapiente distinctio voluptatum sit ducimus iste, cum ex commodi facilis rerum enim pariatur id dolore. Exercitationem, voluptates? Eveniet, vel quam.</p>
+         </div>   
+        
+    </div>
+    <footer>
+        <div>
+            &copy;2023 Gym Town All right reserved
+        </div>
+    </footer>
+    <script>
+        const toggleButton = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+    </script>
+</body>
+</html>

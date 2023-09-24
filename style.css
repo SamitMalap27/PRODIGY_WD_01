@@ -1,0 +1,141 @@
+/* Basic styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 96.2%;
+    flex-grow: 1
+}
+
+.nav-links {
+    font-size: large;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:hover{
+    text-decoration: underline;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        /* Adjust as needed to avoid overlapping content */
+        left: -100%;
+        /* Initially hidden */
+        background-color: #333;
+        width: 100%;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+        /* Show the navigation links */
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        text-align: right;
+        padding: 10px 15px;
+    }
+
+    .nav-toggle {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+nav div img {
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 40px;
+    width: auto;
+}
+
+
+/* Main content css */
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/back.jpg");
+    /* margin-top: 48px; */
+    padding-top: 48px;
+    /* align-items: center; */
+    /* position: relative; */
+
+}
+
+.desc {
+    /* background-origin:inherit; */
+    background-color: rgba(90, 89, 89, 0.7);
+    height: 200px;
+    width: 400px;
+    color: aliceblue;
+    display: inline-block;
+    /* margin-left:100px;
+    margin-top: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+}
+
+/* Style the button */
+.my-button {
+    display: block;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #0c62ec;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+}
+
+/* Add hover effect */
+.my-button:hover {
+    background-color: #3180ff;
+}
+
+footer {
+    /* align-items: baseline; */
+    padding-top: 25px;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    background-color: #484848;
+    color: aliceblue;
+}
